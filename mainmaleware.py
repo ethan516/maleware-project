@@ -22,7 +22,7 @@ def take_screenshot():
 def simulate_input_capture(duration=20):
     keys = [
         "hello", "user", "password", "test", "login", "data", "admin",
-        "123456", "email", "name", "secret", "info", "guest", "root"
+         "email", "name", "info", "guest", 
     ]
     log_file = f"{LOG_FOLDER}/input_log_{time.strftime('%Y%m%d_%H%M%S')}.txt"
     start_time = time.time()
